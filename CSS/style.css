@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    background-color: rgba(27, 235, 207, 0.9);
+}
+
+/* div {
+    background-color: lightgrey;
+    font-size: 20px;
+} */
+
+#maincontent {
+    color: aquamarine;    
+    background-color: black;
+}
+
+.divgroup {
+    font-size: 30px;
+}
+
+* {
+    letter-spacing: 10px;
+}

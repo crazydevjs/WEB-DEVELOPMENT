@@ -1,7 +1,26 @@
 :root {
-    --teal: #031634;
+    --teal: #031634; /** CSS color variable **/
+    --cobalt: #033649;
+    --turquoise: #066464;
+    --beige: #CEB280;
+    --gold: #EADDCC;
 }
 body {
+    margin: 0;
+    padding: 0; 
     background-color: var(--teal);
     color: white;
+}
+#myname {
+    display: block;
+    color: var(--gold);
+    font-size: 30px;
+}
+#exp-list {
+    padding: 0;
+    margin: 0;
+
+}
+.exp-item {
+    list-style-type: none; ;
 }

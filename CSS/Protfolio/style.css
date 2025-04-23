@@ -17,10 +17,12 @@ body {
     font-size: 30px;
 }
 #exp-list {
-    padding: 0;
-    margin: 0;
-
+    padding: 20px;
+    margin: 30px;
+    border: 10px solid var(--beige);
+    width: 300px;
+    box-sizing: border-box;
 }
 .exp-item {
-    list-style-type: none; ;
+    list-style-type: none; 
 }

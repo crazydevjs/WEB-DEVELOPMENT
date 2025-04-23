@@ -20,3 +20,13 @@ h1 {
 * {
     letter-spacing: 10px;
 }
+#targetdiv {
+    background-color: #5c3b13;
+}
+#imagediv {
+    /* height: 5000px; */
+    background-image: url("../img/download.jpg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: 400px 400px;
+}

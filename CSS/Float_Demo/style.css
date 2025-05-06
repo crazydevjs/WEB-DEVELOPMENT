@@ -1,0 +1,16 @@
+img {
+    width: 100px;
+    height: 100px;
+    float: none;
+    display: none;
+}
+
+span {
+    border: 1px solid black;
+    width: 120px;
+    
+}
+
+div.parent {
+    border: 2px solid red;
+}

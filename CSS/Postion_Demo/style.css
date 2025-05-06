@@ -9,11 +9,19 @@ div > img {
 }
 
 #dog1 {
-    position: static;
+    position: relative;
+    left: 0px;
+    top: 0px;
+
 }
 #dog2 {
-    position: static;
+    position: relative;
+    left: 400px;
+    top: -300px;
 }
 #dog3 {
-    position: static;
+    position: relative;
+    left: 800px;
+    top: -600px;
+
 }

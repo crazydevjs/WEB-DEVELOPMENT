@@ -8,7 +8,9 @@ img {
 span {
     border: 1px solid black;
     width: 120px;
-    
+    background-color: antiquewhite;
+    float: right;
+
 }
 
 div.parent {

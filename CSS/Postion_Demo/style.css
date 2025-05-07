@@ -25,9 +25,9 @@ section {
 
 }
 #dog2 {
-    position: static;
-    top: 0px;
-    left: 0px; 
+    position: sticky;
+    top: 50px;
+    left: 50px; 
 }
 #dog3 {
     position: static;

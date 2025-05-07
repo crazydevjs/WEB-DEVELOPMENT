@@ -1,19 +1,19 @@
 body {
     position: relative;
 }
-div {
+.dogs {
     width: 300px;
     height: 300px;
 }
 
-div > img {
+.dogs > img {
     width: 100%;
     height: 100%;
 }
 section {
     position: static;
     width: 600px;
-    height: 600px;
+    height: 6000px;
     background-color: beige;
     margin-top: 30px;
     margin-left: 30px;
@@ -25,13 +25,33 @@ section {
 
 }
 #dog2 {
-    position: absolute;
-    top: 50px;
-    left: 50px; 
+    position: static;
+    top: 0px;
+    left: 0px; 
 }
 #dog3 {
     position: static;
     left: 800px;
     top: -600px;
 
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 16px;
 }

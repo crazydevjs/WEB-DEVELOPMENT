@@ -26,3 +26,20 @@ body {
 .exp-item {
     list-style-type: none; 
 }
+
+#navlist {
+    /* Flex Container  */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+
+}
+.navlist-item-text {
+    text-decoration: none;
+    color: white;
+}

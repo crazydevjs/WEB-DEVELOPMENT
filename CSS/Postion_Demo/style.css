@@ -13,8 +13,8 @@ body {
 section {
     position: static;
     width: 600px;
-    height: 6000px;
-    background-color: beige;
+    height: 1000px;
+    /* background-color: beige; */
     margin-top: 30px;
     margin-left: 30px;
 }
@@ -25,15 +25,16 @@ section {
 
 }
 #dog2 {
-    position: sticky;
-    top: 50px;
+    position: relative;
+    top: -50px;
     left: 50px; 
+    z-index: -1;
 }
 #dog3 {
-    position: static;
-    left: 800px;
-    top: -600px;
-
+    position: relative;
+    left: 70px;
+    top: -120px;
+    z-index: -2;
 }
 
 .navbar {
@@ -54,4 +55,10 @@ section {
     text-decoration: none;
     margin: 0px 10px;
     font-size: 16px;
+}
+#overfow_demo {
+    width: 500px;
+    height: 200px;
+    border: 1px solid red;
+    overflow: scroll;
 }
